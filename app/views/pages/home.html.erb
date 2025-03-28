@@ -1,2 +1,9 @@
-# our hoome page
-Hello, World
+<h1>This is the home page</h1>
+<button id="about-btn">About Us</button>
+
+<script>
+  document.getElementById("about-btn").addEventListener("click", function() {
+    window.location.href = "<%= about_path %>";
+  });
+</script>
+
