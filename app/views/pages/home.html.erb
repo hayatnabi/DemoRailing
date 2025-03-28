@@ -1,9 +1,10 @@
-<h1>Welcome to CareCloud Web Application.</h1>
-<button id="about-btn">About Us</button>
+<div style="display:flex; flex-direction:column; align-items:center; height:100vh; justify-content:center;">
+  <h1>Welcome to CareCloud Web Application.</h1>
+  <button id="about-btn">About Us</button>
+</div>
 
 <script>
   document.getElementById("about-btn").addEventListener("click", function() {
     window.location.href = "<%= about_path %>";
   });
 </script>
-
