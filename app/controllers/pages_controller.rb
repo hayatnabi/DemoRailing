@@ -4,5 +4,6 @@ class PagesController < ApplicationController
   end
 
   def about
+    # this expects a about.html.erb file under the views and pages folder
   end
 end
